@@ -12,6 +12,12 @@ module.exports = (sequelize, DataTypes) => {
             type: Sequelize.STRING,
             allowNull: true
         },
+
+        created_by:{
+            type: Sequelize.STRING,
+            allowNull: true
+        },
+
         createdAt: {
             type: Sequelize.DATE,
             allowNull: false
